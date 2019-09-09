@@ -1,0 +1,117 @@
+html {
+    background-color: rgb(26, 111, 157);
+}
+
+body {
+    background-color: white;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body > * {
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;  /* links without underline */
+}
+
+/* header on top of page with HVL logo on the right side of the page */
+header {
+    height: 3rem;
+}
+
+header img {    /* HVL logo on the right side of the page */
+    height: 40px;
+    position: relative;
+    float: right;
+}
+
+h1 {
+    font-family: 'ltc-globe-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 2rem;
+    margin: 0.5rem auto 0 auto;
+}
+
+h2, h3, h4 {
+    font-family: "Arial Black", Gadget,  sans-serif;
+    margin: 1rem 0 1rem 0;
+}
+/* navigation bar */
+nav {
+    background-color:rgb(247, 148, 30);
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {       /* text changes color when mouse hover over it */
+    color: rgb(5, 68, 102);
+}
+
+/*  main content  */
+main a {
+    color: rgb(10, 87, 129);
+}
+main a:hover {
+    color: rgb(247, 148, 30);
+}
+.portrait {
+    border: 5px solid rgb(26, 111, 157);
+    border-radius: 20px;
+    height: 140px;
+    position: relative;
+    float: left;
+    margin: 0 1rem 0 0.2rem;
+}
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+}
+
+td, th {
+    border: 1px solid rgb(26, 111, 157);
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+
+th {
+    background-color: rgb(247, 148, 30);
+    color: white;
+}
+
+.timeplan td, .timeplan th {
+    max-width: 9rem;    
+}
+.ledig {
+    background-color: rgba(91, 155, 190,0.5);
+}
+
+.noBullet {
+    list-style: none;
+}
+
+li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.haandarbeid {
+    max-height: 3rem;
+    padding: 0.2rem;
+}
+.imgLink {
+    box-shadow: 1px 1px 5px rgb(91, 155, 190);
+}
+
+.imgLink:hover {
+    box-shadow: 1px 1px 5px rgb(255, 191, 115);
+}
+
+.youtube {
+    max-height: 4rem;
+}
