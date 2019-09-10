@@ -1,6 +1,9 @@
 body {
-    background-color: #727272;
+    background-color: #b4b4b4;
 }
 h1 {
     text-align: center;
+}
+img {
+    max-width: 75%;
 }
