@@ -3,73 +3,66 @@
     <head>
         <meta charset="utf-8">
         <title>Quyen</title>
-        <link rel="stylesheet" href="../style.css"/>
+        <link rel="stylesheet" href="../style.css" />
+        <style>
+        .haandarbeid {
+            max-height: 3rem;
+            padding: 0.2rem;
+        }
+        .youtube {
+            max-height: 4rem;
+        }
+        .imgLink {
+            box-shadow: 1px 1px 5px rgb(91, 155, 190);
+        }
+        .imgLink:hover {
+            box-shadow: 1px 1px 5px rgb(255, 191, 115);
+        }
+        li {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        } 
+        td, th {
+            border: 1px solid rgb(26, 111, 157);
+            padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        }
+        </style>
     </head>
 
     <body>
+        <header>
+            <img src="../images/logoHVL-hvit.png" alt="LOGO">
+            <h1>Gruppe 13</h1>
+        </header>
         <nav>
-            <a href="../index.html">Hovedside</a>
-            <a href="../anders/anders.html">Anders</a>
-            <a href="../olav/olav.html">Olav</a>
-            <a href="../quyen/quyen.html" class="active">Quyen</a>
-            <a href="../steffen/steffen.html">Steffen</a>
-            <a href="../torjus/torjus.html">Torjus</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../anders/anders.html">Anders</a></li>
+                <li><a href="../olav/olav.html">Olav</a></li>
+                <li><a href="../quyen/quyen.html" class="active">Quyen</a></li>
+                <li><a href="../steffen/steffen.html">Steffen</a></li>
+                <li><a href="../torjus/torjus.html">Torjus</a></li>
+            </ul>
         </nav>
          <!-- main content -->
-        <main>
-            <style>
-                h1, h2, h3, h4 { font-family: 'Arial Black', Gadget,   sans-serif; }
-                a { color: rgb(10, 87, 129); }
-                a:hover { color: rgb(247, 148, 30); }
-            </style>
-                
-            <header>
-                <style>
-                    .portrait {
-                        border: 5px solid rgb(26, 111, 157);
+        <main>              
+            <header style="max-width:50rem;">
+              <h1 style="font-family: 'Arial Black', Gadget, sans-serif;">Phuong Quyen Pham</h1>
+            <img style="border: 5px solid rgb(26, 111, 157);
                         border-radius: 20px;
                         height: 120px;
                         position: relative;
                         float: left;
-                        margin: 0 1rem 0 0.2rem;
-                    }
-                </style>
-
-                <h1>Phuong Quyen Pham</h1>
-                <img class="portrait" src="bilde-quyen-square.jpg" alt="Quyen">
-                <h3>Student</h3>
+                        margin: 0 1rem 0 0.2rem;" src="bilde-quyen-square.jpg" alt="Quyen">
+                <h2 style="font-family: 'Arial Black', Gadget, sans-serif;">Student</h2>
                 <p>Siden høst 2019 er jeg bachelorstudent ved <a href="http://www.hvl.no">Høgskulen på Vestlandet</a> i Bergen, hvor jeg studerer <a href="https://hvl.no/studier/studieprogram/informasjonsteknologi/">Informasjonsteknologi</a>.</p>
                 <p>Jeg går i første semester og har tre fag: Grunnleggende programmering, Diskret matematikk 1 og Ingeniørfaglig yrkesutøvelse og arbeidsmetoder for datafag. </p>
                 <p>Det er andre gang jeg tar høyere utdanning. Jeg er utdannet ingeniør og har en master i mikroteknikk fra <a href="http://www.epfl.ch">Ecole Polytechnique de Lausanne</a>, Sveits. </p>
             </header>
            
             <section>
-                <style>
-                    li {
-                        margin-top: 0.5rem;
-                        margin-bottom: 0.5rem;
-                    }
-                    .haandarbeid {
-                        max-height: 3rem;
-                        padding: 0.2rem;
-                    }
-                    .youtube {
-                        max-height: 4rem;
-                    }
-                    .imgLink {
-                        box-shadow: 1px 1px 5px rgb(91, 155, 190);
-                    }
-                    .imgLink:hover {
-                        box-shadow: 1px 1px 5px rgb(255, 191, 115);
-                    }
-                    td, th {
-                        border: 1px solid rgb(26, 111, 157);
-                        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-                    }
-                </style>
-
-                <h2>Interesser</h2>
-                <h3>Håndarbeid</h3>
+                <h2 style="font-family: 'Arial Black', Gadget, sans-serif;">Interesser</h2>
+                <h3 style="font-family: 'Arial Black', Gadget, sans-serif;">Håndarbeid</h3>
                 <p>Håndarbeid er for meg en avslappende og tilfredsstillende aktivitet. Framdrift av arbeidet er synlig med én gang og sluttproduktet er oftest et plagg som man kan ha på seg eller noe som kan brukes i hjemmet.</p>
                 <ul>
                     <li><strong>Inspirasjon</strong> henter jeg fra Facebook grupper, blogger, magasiner:
@@ -91,9 +84,9 @@
                     </li>
                 </ul>
 
-                <h3>Musikk</h3>
+                <h3 style="font-family: 'Arial Black', Gadget, sans-serif;">Musikk</h3>
                 <p>Her er noen sanger og radiokanaler som jeg har lyttet/lytter på</p>
-                <h4>Radiokanaler</h4>
+                <h4 style="font-family: 'Arial Black', Gadget, sans-serif;">Radiokanaler</h4>
                 <ul>
                     <li>Radio Fribourg: <a href="https://www.radiofr.ch">radiofr.ch</a></li>
                     <li>Couleur 3: <a href="https://programmesradio.rts.ch/couleur3">programmesradio.rts.ch/couleur3</a></li>
@@ -102,7 +95,7 @@
                     </li>
                 </ul>
                 
-                <h4>Sanger</h4>
+                <h4 style="font-family: 'Arial Black', Gadget, sans-serif;">Sanger</h4>
                 <table style="border-collapse: collapse; margin: 1rem; max-width: 50rem; padding: 0.5rem;">
                     <tr>
                         <th>Tittel</th>

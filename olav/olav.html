@@ -3,24 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <title>Olav</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="../style.css"/>
+        <style>
+            main {
+                background-color: azure;
+            }
+            h1 {
+                text-align: center;
+            }
+            img.resize {
+                max-width: 100%;
+            }
+            table {
+                text-align: left;
+                width: 100%;
+            }
+            .thumbnail {
+                width: 150px;
+            }
+        </style>
     </head>
     <body>
+        <header>
+            <img src="../images/logoHVL-hvit.png" alt="LOGO">
+            <h1>Gruppe 13</h1>
+        </header>
         <nav>
-            <a href="../index.html">Hovedside</a>
-            <a href="../anders/anders.html">Anders</a>
-            <a href="../olav/olav.html" class="active">Olav</a>
-            <a href="../quyen/quyen.html">Quyen</a>
-            <a href="../steffen/steffen.html">Steffen</a>
-            <a href="../torjus/torjus.html">Torjus</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../anders/anders.html">Anders</a></li>
+                <li><a href="../olav/olav.html" class="active">Olav</a></li>
+                <li><a href="../quyen/quyen.html">Quyen</a></li>
+                <li><a href="../steffen/steffen.html">Steffen</a></li>
+                <li><a href="../torjus/torjus.html">Torjus</a></li>
+            </ul>
         </nav>
         <main>
             <h1>Olav Wessel Pete</h1>
-            <div class="img.resize" >
-                <img src="images/olav_heroey.jpg" alt="Olav at Herøy"/>   
-            </div>
-            <h2>Interesser</h2>
+            <img class="resize" src="images/olav_heroey.jpg" alt="Olav at Herøy"/>
+            <h2>Interests</h2>
             <ul>
                 <li>Gaming
                     <ul>
@@ -30,15 +51,21 @@
                 </li>
                 <li>Making
                     <ul>
-                        <li>3D printing</li>
-                        <li>Snekkring</li>
-                        <li>Programmering</li>
+                        <li><strong>3D printing</strong></li>
+                        <li>Woodworking</li>
+                        <li>Game programming</li>
                     </ul>
                 </li>
             </ul>
-            <h2>Studier</h2>
-            <p><a href="https://www.hvl.no/studier/studieprogram/2019h/data/">Dataingeniør</a></p>
+            <h2>Studies</h2>
+            <p><a href="https://www.hvl.no/studier/studieprogram/2019h/data/">Computer Engineer (Dataingeniør)</a></p>
+            <h2>Favourite music</h2>
+            <table>
+                <tr>
+                    <td><img src="images/synthwave.png" alt="Best of Synthwave and Retro Electro [Part 1]" class="thumbnail"></td>
+                    <td><a href="https://music.youtube.com/watch?v=85bkCmaOh4o&feature=share">Best of Synthwave and Retro Electro [Part 1]</a></td>
+                </tr>
+            </table>
         </main>
-        
     </body>
 </html>
